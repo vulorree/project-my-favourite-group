@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(148, 226, 226);
+}
+
+head {
+  background-color: rgb(148, 226, 226);
+}
+h1 {
+  color: red;
+  font-size: 40px;
+  width: 100%;
+  padding-left: 500px;
+  size: 200px;
+}
+
+h2 {
+  size: 50px;
+}
+a {
+  color: blueviolet;
+}
+
+img {
+  width: 100%;
+  height: 500px;
+}
+
+.uchasniki {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  margin-top: 50px;
+}
+
+.uchasniki .text ol {
+  width: 100%;
+  font-size: 26px;
+  line-height: 1.6;
+}
+
+.uchasniki.image img {
+  width: 40%;
+  height: auto;
+  display: block;
+}
+
+.korobka.image img {
+  width: 40%;
+  height: auto;
+  display: block;
+}
+
+.korobka.text {
+  width: 100%;
+  font-size: 26px;
+  line-height: 1.6;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.zhanr {
+  margin-top: 50px;
+  font-size: 26px;
+  line-height: 1.6;
+}
+
+h3 {
+  font-size: 50px;
+  color: red;
+}
+
+h2 {
+  font-size: 50px;
+  color: red;
+}
+
+.gde {
+  width: 100%;
+  font-size: 26px;
+  line-height: 1.6;
+  color: red;
+}
