@@ -4,13 +4,11 @@
   flex-wrap: nowrap;
   margin-top: 50px;
 }
-
 .osnova .text {
    padding-left:100px ;
    padding-top: 20px; 
    width: 60%;
 }
-
 .osnova .image img {
   width: 100%;
   height: auto;
@@ -23,29 +21,18 @@
     width: 100%;
   font-size: 26px;
   line-height: 1.6;
- 
-
 }
-
 .ssilki .text {
    padding-left:100px ;
    width: 100%;
 }
-
 div {
   margin: 0;
   padding: 0;
 }
-
-
 head{
     background-color: azure;
 }
-
 body{
     background-color: bisque;
 }
-
-
-
-
