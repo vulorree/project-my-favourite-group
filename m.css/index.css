@@ -11,12 +11,10 @@ h1 {
   font-size: 40px;
   width: 100%;
   padding-left: 500px;
-  size: 200px;
+  font-size: 100px;
 }
 
-h2 {
-  size: 50px;
-}
+
 a {
   color: blueviolet;
 }
@@ -39,19 +37,19 @@ img {
   line-height: 1.6;
 }
 
-.uchasniki.image img {
+.uchasniki .image img {
+  width: 90%;
+  height: auto;
+  display: block;
+}
+
+.korobka .image img {
   width: 40%;
   height: auto;
   display: block;
 }
 
-.korobka.image img {
-  width: 40%;
-  height: auto;
-  display: block;
-}
-
-.korobka.text {
+.korobka .text {
   width: 100%;
   font-size: 26px;
   line-height: 1.6;
