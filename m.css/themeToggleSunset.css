@@ -1,0 +1,13 @@
+body.sunset{
+    background-color: #ffd6a5;
+    color: #5a2a00;
+}
+
+.sunset a{
+    color: #b30000;
+}
+
+.sunset button{
+    background-color: #5a2a00;
+    color: white;
+}

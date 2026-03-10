@@ -1,29 +1,38 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(148, 226, 226);
+  padding: 10px;
 }
 head {
   background-color: rgb(148, 226, 226);
 }
 h1 {
   color: red;
-  font-size: 40px;
+  font-size: 28px;
   width: 100%;
-  padding-left: 500px;
-  font-size: 100px;
+  padding-left: 20px;
+  text-align: center;
+}
+h2, h3 , h4 , h5 {
+  font-size: 22px;
+  color: red;
 }
 a {
   color: blueviolet;
 }
 img {
   width: 100%;
-  height: 500px;
+  max-width: 1000px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 .uchasniki {
   display: flex;
   gap: 20px;
   flex-wrap: nowrap;
   margin-top: 50px;
+  align-items: center;
 }
 .uchasniki .text ol {
   width: 100%;
@@ -31,35 +40,29 @@ img {
   line-height: 1.6;
 }
 .uchasniki .image img {
-  width: 90%;
+  width: 100%;
+  max-width: 500px;
   height: auto;
   display: block;
 }
 .korobka .image img {
-  width: 40%;
+  width: 100%;
   height: auto;
   display: block;
 }
 .korobka .text {
-  width: 100%;
-  font-size: 26px;
+  width: 90%;
+  font-size: 20px;
   line-height: 1.6;
 }
 p {
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .zhanr {
   margin-top: 50px;
   font-size: 26px;
   line-height: 1.6;
-}
-h3 {
-  font-size: 50px;
-  color: red;
-}
-h2 {
-  font-size: 50px;
-  color: red;
 }
 .gde {
   width: 100%;
@@ -67,11 +70,14 @@ h2 {
   line-height: 1.6;
   color: red;
 }
-
-
+button{
+  width: 100%;
+  max-width:280px ;
+}
 #scrollTop{
   position:fixed;
   bottom:20px;
   right:20px;
   display:none;
+  width: 15%;
 }
